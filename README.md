@@ -14,7 +14,6 @@ This project is a Connect 4 game implemented in Java, featuring an AI opponent u
   - **Medium**: Limited depth minimax.
   - **Hard**: Full depth minimax with alpha-beta pruning.
   - **Stochastic**: Mix of minimax and random moves.
-- **GUI Interface**: Intuitive and interactive game board using JavaFX.
 - **Undo Move**: Ability to undo the last move.
 
 ## Installation
@@ -30,10 +29,6 @@ To set up the Connect 4 game on your local machine, follow these steps:
     ```bash
     cd connect4-minimax
     ```
-
-3. **Set up the project environment**:
-    - Ensure you have Java Development Kit (JDK) installed (Java 8 or higher).
-    - Ensure you have a build tool like Apache Maven or Gradle installed.
 
 4. **Build and run the application**:
     - Using Maven:
@@ -66,16 +61,13 @@ To set up the Connect 4 game on your local machine, follow these steps:
 
 - **src/main/java**: Contains the Java source code.
   - **com.example.connect4**: Main package containing core functionality.
-    - **Connect4Game.java**: Main class to run the application.
-    - **GameBoard.java**: Manages the game board state.
-    - **MinimaxAI.java**: Implements the minimax algorithm with alpha-beta pruning.
-    - **RandomAI.java**: Implements the random move generator for easy level.
-    - **StochasticAI.java**: Combines minimax and random moves for the stochastic level.
+    - **Connect4Game.py**: Main class to run the application.
+    - **GameBoard.py**: Manages the game board state.
+    - **MinimaxAI.py**: Implements the minimax algorithm with alpha-beta pruning.
+    - **RandomAI.py**: Implements the random move generator for easy level.
+    - **StochasticAI.py**: Combines minimax and random moves for the stochastic level.
     - **Move.java**: Represents a move in the game.
-- **src/main/resources**: Contains resources such as FXML files for the GUI.
-  - **main.fxml**: Layout for the main game window.
-  - **menu.fxml**: Layout for the main menu window.
-  - **styles.css**: CSS styles for the game.
+
 
 ## Minimax Algorithm
 
