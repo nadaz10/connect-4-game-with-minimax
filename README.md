@@ -1,5 +1,5 @@
-# connect-4-game-with-minimax
-# Connect 4 Game with Minimax and Levels
+
+# Connect 4 Game with Minimax Algorithm
 
 ## Overview
 
